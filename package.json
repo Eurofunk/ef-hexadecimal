@@ -1,6 +1,6 @@
 {
   "name": "ef-hexadecimal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A link attribute directive which will check and restrict user to enter non hexadecimal format characters.",
   "main": "ef-hexadecimal.js",
   "scripts": {

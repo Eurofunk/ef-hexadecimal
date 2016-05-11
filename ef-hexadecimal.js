@@ -7,7 +7,7 @@
  * digits - Number of digits accepted
  */
 angular
-    .module('ef.directives')
+    .module('ef.directives', [])
     .directive('efHexadecimal', EfHexadecimal);
 
 function EfHexadecimal($browser) {
