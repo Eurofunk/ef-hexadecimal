@@ -37,6 +37,10 @@ function EfHexadecimal($browser) {
         }
 
         function isValid(modelValue, viewValue) {
+            if(viewValue && modelValue && modelValue.toString() === viewValue){
+                viewValue = parseInt(viewValue);
+                viewValue = viewValue.toString(16);
+            }
             var value = parseInt(viewValue, 16);
             return /[0-9a-f]+/i.test(viewValue) && value >= $attrs.min && value <= $attrs.max;
         }
