@@ -1,15 +1,24 @@
 {
   "name": "ef-hexadecimal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A link attribute directive which will check and restrict user to enter non hexadecimal format characters.",
   "main": "ef-hexadecimal.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eurofunk/ef-hexadecimal"
+  },
   "keywords": [
-    "angular",
-    "hexadecimal"
+    "hexadecimal",
+    "directive",
+    "angular"
   ],
-  "author": "Eurofunk FeTeam",
-  "license": "ISC"
+  "author": "Stefan Moosbauer <smoosbauer@eurofunk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eurofunk/ef-hexadecimal/issues"
+  },
+  "homepage": "https://github.com/Eurofunk/ef-hexadecimal"
 }
