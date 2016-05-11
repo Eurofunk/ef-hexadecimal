@@ -1,0 +1,15 @@
+{
+  "name": "ef-hexadecimal",
+  "version": "1.0.0",
+  "description": "A link attribute directive which will check and restrict user to enter non hexadecimal format characters.",
+  "main": "ef-hexadecimal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "hexadecimal"
+  ],
+  "author": "Eurofunk FeTeam",
+  "license": "ISC"
+}
